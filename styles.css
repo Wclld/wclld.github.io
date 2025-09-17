@@ -124,18 +124,42 @@ header {
 .card {
     background: var(--card);
     border-radius: var(--r);
-    padding: 18px;
+    padding: 18px 0;
     border: 1px solid rgba(255, 255, 255, .06)
+}
+.side-card {
+    padding: 18px;
 }
 
 .list {
     display: grid;
-    gap: 24px;
+}
+
+.about {
+    padding: 0 18px;
 }
 
 .proj {
     display: flex;
+    border-radius: var(--r);
+    transition: 0.3s;
+    padding: 18px;
 }
+
+
+a.proj[href]:not([href=""]):hover {
+    background-color:rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+}
+
+a.proj:not([href]), 
+a.proj[href=""] {
+  cursor: default;
+  pointer-events: none;
+}
+
+
+
 
 .proj-description {
     display: grid;
@@ -157,7 +181,7 @@ header {
     color: var(--muted)
 }
 
-.project-link img {
+.project-image{
     border-radius: var(--r);
     width: 112px;
     height: 112px;

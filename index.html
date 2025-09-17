@@ -51,53 +51,52 @@
     </header>
     <div class="grid"> <!-- LEFT -->
       <section class="card">
-        <h2>About</h2>
-        <p> Unity developer with <strong>7 years</strong> of experience across mobile games and apps. I build clean,
-          modular UI/HUD and editor tooling, ship gameplay features, and make WebGL/mobile builds fast and lean.
-          Comfortable joining legacy codebases, reverse-engineering features, and documenting deliverables. </p>
-        <div class="kudos">
-          <span class="pill">Unity</span>
-          <span class="pill">C#</span>
-          <span class="pill">UGUI</span>
-          <span class="pill">ECS/DOTS</span>
-          <span class="pill">Photon</span>
-          <span class="pill">GameAnalytics</span>
-          <span class="pill">Localization</span>
-          <span class="pill">Firebase</span>
-          <span class="pill">WebGL</span>
+        <div class="about">
+          <h2>About</h2>
+          <p> Unity developer with <strong>7 years</strong> of experience across mobile games and apps. I build clean,
+            modular UI/HUD and editor tooling, ship gameplay features, and make WebGL/mobile builds fast and lean.
+            Comfortable joining legacy codebases, reverse-engineering features, and documenting deliverables. </p>
+          <div class="kudos">
+            <span class="pill">Unity</span>
+            <span class="pill">C#</span>
+            <span class="pill">UGUI</span>
+            <span class="pill">ECS/DOTS</span>
+            <span class="pill">Photon</span>
+            <span class="pill">GameAnalytics</span>
+            <span class="pill">Localization</span>
+            <span class="pill">Firebase</span>
+            <span class="pill">WebGL</span>
+          </div>
         </div>
         <div class="sep"></div>
         <h2>Selected Work (public)</h2>
         <div class="list">
-          <div class="proj">
+          <a class="proj" href="https://animaspiritguardians.info/" target="_blank" rel="noopener">
             <div class="proj-description">
               <h3>Unity Editor Tooling — Prefab/Scene Automation & Validation</h3>
               <p>Unity editor tooling for non-programmers: one-click pipelines, custom inspectors, and safe batch operations to speed up content creation and reduce mistakes.</p>
               <p class="meta">Stack: Unity Editor · C# · ScriptableObjects</p>
             </div>
-            <a class="project-link" href="https://animaspiritguardians.info/" target="_blank" rel="noopener"><img src="Result2.jpg" alt=""></a>
-          </div>
+            <img class="project-image" src="https://github.com/Wclld/wclld.github.io/releases/download/v0.0.1/ITLEditor.jpg" alt="">
+          </a>
 
-          <div class="proj">
+          <a class="proj" href="https://animaspiritguardians.info/" target="_blank" rel="noopener">
             <div class="proj-description">
               <h3>Unity UI and HUD for action-collection RPG</h3>
               <p>Implemented the gameplay HUD (skill bar with cooldown/mana, HP/target/status cues, combat notifications) and the meta-game UI (team selection/formation with modifiers, full hero roster).</p>
               <p class="meta">Stack: Unity (ECS + MVC) · UGUI · Addressables · C#</p>
             </div>
-            <a class="project-link" href="https://animaspiritguardians.info/" target="_blank" rel="noopener"><img src="Result3_smoll.jpg" alt=""></a>
+            <img class="project-image" src="https://github.com/Wclld/wclld.github.io/releases/download/v0.0.1/ITLUI.jpg" alt="">
 
-          </div>
-          <div class="proj">
+          </a>
+          <a class="proj" href="https://joedangerthegame.com/" target="_blank" rel="noopener">
             <div class="proj-description">
               <h3>Unity Legacy → Modern UGUI Refactor (WebGL)</h3>
               <p>Refactored a Unity 3 era UI into modular UGUI with reusable layout components and optimized asset loading.</p>
               <p class="meta">Stack: Unity (modern LTS) · UGUI · Particle System · WebGL</p>
-              <p class="small">
-                <a class="project-link" href="https://joedangerthegame.com/" target="_blank" rel="noopener">Public release link</a>
-              </p>
             </div>
-          </div>
-          <div class="proj">
+          </a>
+          <a class="proj" href="">
             <div class="proj-description">
 
               <h3>XR / 360° Camera Control App (iOS/Android)</h3>
@@ -106,19 +105,19 @@
               </p>
               <p class="meta">Stack: Unity · Mobile (iOS/Android) · HTTP APIs · Basic mapping/overlay · C#</p>
             </div>
-          </div>
+          </a>
 
-          <div class="proj">
+          <a class="proj" href="">
             <div class="proj-description">
               <h3>Laparoscopic Surgery Simulator (prototype)</h3>
               <p>Realtime mesh cutting & tool logic on Unity Jobs. Prototype UI (login/settings/procedure picker) and core
                 tool interactions: clamp/compress, fast cut paths, soft-tissue collision via raycast grids.</p>
               <p class="meta">Stack: Unity · Jobs · Custom collision (raycasts) · C#</p>
             </div>
-          </div>
+          </a>
         </div>
       </section>
-      <aside class="card"> <!-- RIGHT -->
+      <aside class="card side-card"> <!-- RIGHT -->
         <h2>Services</h2>
         <ul>
           <li>UI/HUD implementation and polish</li>
@@ -169,6 +168,7 @@
   </div>
   <script>
     document.getElementById('y').textContent = new Date().getFullYear()
+    document.getElementsByClassName
   </script>
 </body>
 
