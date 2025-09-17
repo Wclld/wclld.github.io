@@ -134,23 +134,35 @@ header {
 }
 
 .proj {
+    display: flex;
+}
+
+.proj-description {
     display: grid;
     gap: 8px
 }
 
-.proj h3 {
+.proj-description h3 {
     margin: 0;
     font-size: 17px
 }
 
-.proj p {
+.proj-description p {
     margin: 0;
     color: var(--muted)
 }
 
-.proj .meta {
+.proj-description .meta {
     font-size: 13px;
     color: var(--muted)
+}
+
+.project-link img {
+    border-radius: var(--r);
+    width: 112px;
+    height: 112px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .cta {
